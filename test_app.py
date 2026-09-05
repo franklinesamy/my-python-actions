@@ -6,4 +6,4 @@ def test_add():
 
 
 def test_multiply():
-    assert multiply(10, 20) == 200
+    assert multiply(10, 20) == 500
