@@ -1,6 +1,5 @@
-def add(a, b):
-    return a + b
+from app import add
 
 
-if __name__ == "__main__":
-    print(add(10, 20))
+def test_add():
+    assert add(10, 20) == 30
